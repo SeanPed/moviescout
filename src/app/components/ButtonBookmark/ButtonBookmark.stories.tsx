@@ -6,5 +6,7 @@ export default {
   component: ButtonBookmark,
 };
 
-export const notClicked = (): JSX.Element => <ButtonBookmark clicked={false} />;
-export const Clicked = (): JSX.Element => <ButtonBookmark clicked={true} />;
+export const notFilled = (): JSX.Element => <ButtonBookmark fill="none" />;
+export const Filled = (): JSX.Element => (
+  <ButtonBookmark fill="#FFC700" stroke="#FFC700" />
+);

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { BsBookmark } from 'react-icons/fa';
 
 type ButtonProps = {
   clicked: boolean;
