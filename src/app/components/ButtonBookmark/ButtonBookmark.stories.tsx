@@ -6,7 +6,7 @@ export default {
   component: ButtonBookmark,
 };
 
-export const notFilled = (): JSX.Element => <ButtonBookmark fill="none" />;
+export const notFilled = (): JSX.Element => <ButtonBookmark />;
 export const Filled = (): JSX.Element => (
   <ButtonBookmark fill="#FFC700" stroke="#FFC700" />
 );

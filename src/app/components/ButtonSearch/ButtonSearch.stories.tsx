@@ -6,7 +6,7 @@ export default {
   component: ButtonSearch,
 };
 
-export const notFilled = (): JSX.Element => <ButtonSearch fill="none" />;
+export const notFilled = (): JSX.Element => <ButtonSearch />;
 export const Filled = (): JSX.Element => (
   <ButtonSearch fill="#FFC700" stroke="#FFC700" />
 );

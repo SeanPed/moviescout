@@ -6,7 +6,7 @@ export default {
   component: ButtonHome,
 };
 
-export const notFilled = (): JSX.Element => <ButtonHome fill="none" />;
+export const notFilled = (): JSX.Element => <ButtonHome />;
 export const Filled = (): JSX.Element => (
   <ButtonHome fill="#FFC700" stroke="#FFC700" />
 );
